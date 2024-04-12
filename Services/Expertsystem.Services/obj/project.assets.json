@@ -4822,11 +4822,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj",
+      "projectUniqueName": "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj",
       "projectName": "Expertsystem.Services",
-      "projectPath": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj",
+      "projectPath": "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj",
       "packagesPath": "C:\\Users\\liuyuc\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\obj\\",
+      "outputPath": "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4848,11 +4848,11 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj": {
-              "projectPath": "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj"
+            "E:\\Code\\LeaningProject-master\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj": {
+              "projectPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj"
             },
-            "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj": {
-              "projectPath": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj"
+            "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj": {
+              "projectPath": "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj"
             }
           }
         }

@@ -9,3 +9,15 @@ E:\Code\Expertsystem\Expertsystem.Component\obj\Debug\net6.0-windows\Expertsyste
 E:\Code\Expertsystem\Expertsystem.Component\obj\Debug\net6.0-windows\refint\Expertsystem.Component.dll
 E:\Code\Expertsystem\Expertsystem.Component\obj\Debug\net6.0-windows\Expertsystem.Component.pdb
 E:\Code\Expertsystem\Expertsystem.Component\obj\Debug\net6.0-windows\ref\Expertsystem.Component.dll
+E:\Code\LeaningProject-master\Expertsystem.Component\bin\Debug\net6.0-windows\Expertsystem.Component.deps.json
+E:\Code\LeaningProject-master\Expertsystem.Component\bin\Debug\net6.0-windows\Expertsystem.Component.dll
+E:\Code\LeaningProject-master\Expertsystem.Component\bin\Debug\net6.0-windows\Expertsystem.Component.pdb
+E:\Code\LeaningProject-master\Expertsystem.Component\obj\Debug\net6.0-windows\Expertsystem.Component.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\LeaningProject-master\Expertsystem.Component\obj\Debug\net6.0-windows\Expertsystem.Component.AssemblyInfoInputs.cache
+E:\Code\LeaningProject-master\Expertsystem.Component\obj\Debug\net6.0-windows\Expertsystem.Component.AssemblyInfo.cs
+E:\Code\LeaningProject-master\Expertsystem.Component\obj\Debug\net6.0-windows\Expertsystem.Component.csproj.CoreCompileInputs.cache
+E:\Code\LeaningProject-master\Expertsystem.Component\obj\Debug\net6.0-windows\Expertsystem.Component.sourcelink.json
+E:\Code\LeaningProject-master\Expertsystem.Component\obj\Debug\net6.0-windows\Expertsystem.Component.dll
+E:\Code\LeaningProject-master\Expertsystem.Component\obj\Debug\net6.0-windows\refint\Expertsystem.Component.dll
+E:\Code\LeaningProject-master\Expertsystem.Component\obj\Debug\net6.0-windows\Expertsystem.Component.pdb
+E:\Code\LeaningProject-master\Expertsystem.Component\obj\Debug\net6.0-windows\ref\Expertsystem.Component.dll

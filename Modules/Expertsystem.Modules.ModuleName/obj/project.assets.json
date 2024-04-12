@@ -1539,7 +1539,6 @@
         "dependencies": {
           "Expertsystem.Adapter.Information": "1.0.0",
           "Expertsystem.Services": "1.0.0",
-          "Expertsystem.infomationAdapter.Impl": "1.0.0",
           "Prism.Wpf": "8.1.97"
         },
         "compile": {
@@ -1551,19 +1550,6 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
-      },
-      "Expertsystem.infomationAdapter.Impl/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Expertsystem.Adapter.Information": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Expertsystem.infomationAdapter.Impl.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Expertsystem.infomationAdapter.Impl.dll": {}
-        }
       },
       "Expertsystem.Services/1.0.0": {
         "type": "project",
@@ -4852,11 +4838,6 @@
       "path": "../../Expertsystem.Core/Expertsystem.Core.csproj",
       "msbuildProject": "../../Expertsystem.Core/Expertsystem.Core.csproj"
     },
-    "Expertsystem.infomationAdapter.Impl/1.0.0": {
-      "type": "project",
-      "path": "../../Expertsystem.infomationAdapter.Impl/Expertsystem.infomationAdapter.Impl.csproj",
-      "msbuildProject": "../../Expertsystem.infomationAdapter.Impl/Expertsystem.infomationAdapter.Impl.csproj"
-    },
     "Expertsystem.Services/1.0.0": {
       "type": "project",
       "path": "../../Services/Expertsystem.Services/Expertsystem.Services.csproj",
@@ -4885,11 +4866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj",
+      "projectUniqueName": "E:\\Code\\LeaningProject-master\\Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj",
       "projectName": "Expertsystem.Modules.ModuleName",
-      "projectPath": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj",
+      "projectPath": "E:\\Code\\LeaningProject-master\\Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj",
       "packagesPath": "C:\\Users\\liuyuc\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\obj\\",
+      "outputPath": "E:\\Code\\LeaningProject-master\\Modules\\Expertsystem.Modules.ModuleName\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4911,17 +4892,17 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "E:\\Code\\Expertsystem\\Expertsystem.Common\\Expertsystem.Common.csproj": {
-              "projectPath": "E:\\Code\\Expertsystem\\Expertsystem.Common\\Expertsystem.Common.csproj"
+            "E:\\Code\\LeaningProject-master\\Expertsystem.Common\\Expertsystem.Common.csproj": {
+              "projectPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Common\\Expertsystem.Common.csproj"
             },
-            "E:\\Code\\Expertsystem\\Expertsystem.Component\\Expertsystem.Component.csproj": {
-              "projectPath": "E:\\Code\\Expertsystem\\Expertsystem.Component\\Expertsystem.Component.csproj"
+            "E:\\Code\\LeaningProject-master\\Expertsystem.Component\\Expertsystem.Component.csproj": {
+              "projectPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Component\\Expertsystem.Component.csproj"
             },
-            "E:\\Code\\Expertsystem\\Expertsystem.Core\\Expertsystem.Core.csproj": {
-              "projectPath": "E:\\Code\\Expertsystem\\Expertsystem.Core\\Expertsystem.Core.csproj"
+            "E:\\Code\\LeaningProject-master\\Expertsystem.Core\\Expertsystem.Core.csproj": {
+              "projectPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Core\\Expertsystem.Core.csproj"
             },
-            "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj": {
-              "projectPath": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj"
+            "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj": {
+              "projectPath": "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj"
             }
           }
         }

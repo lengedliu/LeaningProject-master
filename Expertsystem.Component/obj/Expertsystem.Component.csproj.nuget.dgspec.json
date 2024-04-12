@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Code\\Expertsystem\\Expertsystem.Component\\Expertsystem.Component.csproj": {}
+    "E:\\Code\\LeaningProject-master\\Expertsystem.Component\\Expertsystem.Component.csproj": {}
   },
   "projects": {
-    "E:\\Code\\Expertsystem\\Expertsystem.Component\\Expertsystem.Component.csproj": {
+    "E:\\Code\\LeaningProject-master\\Expertsystem.Component\\Expertsystem.Component.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Expertsystem\\Expertsystem.Component\\Expertsystem.Component.csproj",
+        "projectUniqueName": "E:\\Code\\LeaningProject-master\\Expertsystem.Component\\Expertsystem.Component.csproj",
         "projectName": "Expertsystem.Component",
-        "projectPath": "E:\\Code\\Expertsystem\\Expertsystem.Component\\Expertsystem.Component.csproj",
+        "projectPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Component\\Expertsystem.Component.csproj",
         "packagesPath": "C:\\Users\\liuyuc\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Expertsystem\\Expertsystem.Component\\obj\\",
+        "outputPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Component\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

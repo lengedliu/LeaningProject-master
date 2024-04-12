@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rv1/Hamsbn9VHcnnK7XWMdAT3SPsSVXJ4UCBUAuOE4e09Nuib0jC5Xdaznhz3sb+s6wep9d/RAPbxF8Ywx63xg==",
+  "dgSpecHash": "Kdw81dOuGDOAgEedfGJJFpXrQ3gi7omPh6dXjzULxhgMXaUVCXTNJlbc02AahVzDIYSVE0NwvlGMjZIfQf5Htg==",
   "success": true,
-  "projectFilePath": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj",
+  "projectFilePath": "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\liuyuc\\.nuget\\packages\\amazon.extensions.cognitoauthentication\\2.5.2\\amazon.extensions.cognitoauthentication.2.5.2.nupkg.sha512",
     "C:\\Users\\liuyuc\\.nuget\\packages\\amazon.lambda.cognitoevents\\3.0.0\\amazon.lambda.cognitoevents.3.0.0.nupkg.sha512",

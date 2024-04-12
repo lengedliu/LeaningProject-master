@@ -1507,19 +1507,6 @@
           "bin/placeholder/Expertsystem.Adapter.Information.dll": {}
         }
       },
-      "Expertsystem.infomationAdapter.Impl/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Expertsystem.Adapter.Information": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Expertsystem.infomationAdapter.Impl.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Expertsystem.infomationAdapter.Impl.dll": {}
-        }
-      },
       "Expertsystem.Services/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -4792,11 +4779,6 @@
       "path": "../Expertsystem.Adapter.Information/Expertsystem.Adapter.Information.csproj",
       "msbuildProject": "../Expertsystem.Adapter.Information/Expertsystem.Adapter.Information.csproj"
     },
-    "Expertsystem.infomationAdapter.Impl/1.0.0": {
-      "type": "project",
-      "path": "../Expertsystem.infomationAdapter.Impl/Expertsystem.infomationAdapter.Impl.csproj",
-      "msbuildProject": "../Expertsystem.infomationAdapter.Impl/Expertsystem.infomationAdapter.Impl.csproj"
-    },
     "Expertsystem.Services/1.0.0": {
       "type": "project",
       "path": "../Services/Expertsystem.Services/Expertsystem.Services.csproj",
@@ -4812,7 +4794,6 @@
     "net6.0-windows7.0": [
       "Expertsystem.Adapter.Information >= 1.0.0",
       "Expertsystem.Services >= 1.0.0",
-      "Expertsystem.infomationAdapter.Impl >= 1.0.0",
       "Prism.Wpf >= 8.1.97"
     ]
   },
@@ -4824,11 +4805,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\Expertsystem\\Expertsystem.Core\\Expertsystem.Core.csproj",
+      "projectUniqueName": "E:\\Code\\LeaningProject-master\\Expertsystem.Core\\Expertsystem.Core.csproj",
       "projectName": "Expertsystem.Core",
-      "projectPath": "E:\\Code\\Expertsystem\\Expertsystem.Core\\Expertsystem.Core.csproj",
+      "projectPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Core\\Expertsystem.Core.csproj",
       "packagesPath": "C:\\Users\\liuyuc\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\Expertsystem\\Expertsystem.Core\\obj\\",
+      "outputPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4850,14 +4831,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj": {
-              "projectPath": "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj"
+            "E:\\Code\\LeaningProject-master\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj": {
+              "projectPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj"
             },
-            "E:\\Code\\Expertsystem\\Expertsystem.infomationAdapter.Impl\\Expertsystem.infomationAdapter.Impl.csproj": {
-              "projectPath": "E:\\Code\\Expertsystem\\Expertsystem.infomationAdapter.Impl\\Expertsystem.infomationAdapter.Impl.csproj"
-            },
-            "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj": {
-              "projectPath": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj"
+            "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj": {
+              "projectPath": "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj"
             }
           }
         }

@@ -8,7 +8,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Expertsystem.Adapter.Information\Expertsystem.Adapter.Information.csproj" />
-    <ProjectReference Include="..\Expertsystem.infomationAdapter.Impl\Expertsystem.infomationAdapter.Impl.csproj" />
     <ProjectReference Include="..\Services\Expertsystem.Services\Expertsystem.Services.csproj" />
   </ItemGroup>
 </Project>

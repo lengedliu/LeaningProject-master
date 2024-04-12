@@ -10,7 +10,6 @@
         "dependencies": {
           "Expertsystem.Adapter.Information": "1.0.0",
           "Expertsystem.Services": "1.0.0",
-          "Expertsystem.infomationAdapter.Impl": "1.0.0",
           "Prism.Wpf": "8.1.97"
         },
         "runtime": {
@@ -913,14 +912,6 @@
           "Expertsystem.Adapter.Information.dll": {}
         }
       },
-      "Expertsystem.infomationAdapter.Impl/1.0.0": {
-        "dependencies": {
-          "Expertsystem.Adapter.Information": "1.0.0"
-        },
-        "runtime": {
-          "Expertsystem.infomationAdapter.Impl.dll": {}
-        }
-      },
       "Expertsystem.Services/1.0.0": {
         "dependencies": {
           "Expertsystem.Adapter.Information": "1.0.0",
@@ -1552,11 +1543,6 @@
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
     "Expertsystem.Adapter.Information/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Expertsystem.infomationAdapter.Impl/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

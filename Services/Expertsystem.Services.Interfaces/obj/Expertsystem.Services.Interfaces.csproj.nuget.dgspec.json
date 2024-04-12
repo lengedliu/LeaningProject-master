@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj": {}
+    "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj": {}
   },
   "projects": {
-    "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj": {
+    "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj",
+        "projectUniqueName": "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj",
         "projectName": "Expertsystem.Services.Interfaces",
-        "projectPath": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj",
+        "projectPath": "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj",
         "packagesPath": "C:\\Users\\liuyuc\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\obj\\",
+        "outputPath": "E:\\Code\\LeaningProject-master\\Services\\Expertsystem.Services.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

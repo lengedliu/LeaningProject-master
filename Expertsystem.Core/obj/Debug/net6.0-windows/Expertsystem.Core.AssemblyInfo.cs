@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Expertsystem.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93f0705a646760a483063786166b414cc399127d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Expertsystem.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Expertsystem.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

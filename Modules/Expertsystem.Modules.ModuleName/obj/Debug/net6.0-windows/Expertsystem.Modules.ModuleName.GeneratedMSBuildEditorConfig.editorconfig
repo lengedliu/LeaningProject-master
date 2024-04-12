@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Expertsystem.Modules.ModuleName
-build_property.ProjectDir = E:\Code\Expertsystem\Modules\Expertsystem.Modules.ModuleName\
+build_property.ProjectDir = E:\Code\LeaningProject-master\Modules\Expertsystem.Modules.ModuleName\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

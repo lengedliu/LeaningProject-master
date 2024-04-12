@@ -8,3 +8,14 @@ E:\Code\Expertsystem\Expertsystem.Adapter.Information\bin\Debug\netstandard2.1\E
 E:\Code\Expertsystem\Expertsystem.Adapter.Information\obj\Debug\netstandard2.1\Expertsystem.Adapter.Information.dll
 E:\Code\Expertsystem\Expertsystem.Adapter.Information\obj\Debug\netstandard2.1\Expertsystem.Adapter.Information.pdb
 E:\Code\Expertsystem\Expertsystem.Adapter.Information\obj\Debug\netstandard2.1\Expertsystem.Adapter.Information.csproj.AssemblyReference.cache
+E:\Code\LeaningProject-master\Expertsystem.Adapter.Information\bin\Debug\netstandard2.1\Expertsystem.Adapter.Information.deps.json
+E:\Code\LeaningProject-master\Expertsystem.Adapter.Information\bin\Debug\netstandard2.1\Expertsystem.Adapter.Information.dll
+E:\Code\LeaningProject-master\Expertsystem.Adapter.Information\bin\Debug\netstandard2.1\Expertsystem.Adapter.Information.pdb
+E:\Code\LeaningProject-master\Expertsystem.Adapter.Information\obj\Debug\netstandard2.1\Expertsystem.Adapter.Information.csproj.AssemblyReference.cache
+E:\Code\LeaningProject-master\Expertsystem.Adapter.Information\obj\Debug\netstandard2.1\Expertsystem.Adapter.Information.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\LeaningProject-master\Expertsystem.Adapter.Information\obj\Debug\netstandard2.1\Expertsystem.Adapter.Information.AssemblyInfoInputs.cache
+E:\Code\LeaningProject-master\Expertsystem.Adapter.Information\obj\Debug\netstandard2.1\Expertsystem.Adapter.Information.AssemblyInfo.cs
+E:\Code\LeaningProject-master\Expertsystem.Adapter.Information\obj\Debug\netstandard2.1\Expertsystem.Adapter.Information.csproj.CoreCompileInputs.cache
+E:\Code\LeaningProject-master\Expertsystem.Adapter.Information\obj\Debug\netstandard2.1\Expertsystem.Adapter.Information.sourcelink.json
+E:\Code\LeaningProject-master\Expertsystem.Adapter.Information\obj\Debug\netstandard2.1\Expertsystem.Adapter.Information.dll
+E:\Code\LeaningProject-master\Expertsystem.Adapter.Information\obj\Debug\netstandard2.1\Expertsystem.Adapter.Information.pdb

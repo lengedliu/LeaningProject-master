@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\Expertsystem\\Expertsystem.Common\\Expertsystem.Common.csproj",
+      "projectUniqueName": "E:\\Code\\LeaningProject-master\\Expertsystem.Common\\Expertsystem.Common.csproj",
       "projectName": "Expertsystem.Common",
-      "projectPath": "E:\\Code\\Expertsystem\\Expertsystem.Common\\Expertsystem.Common.csproj",
+      "projectPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Common\\Expertsystem.Common.csproj",
       "packagesPath": "C:\\Users\\liuyuc\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\Expertsystem\\Expertsystem.Common\\obj\\",
+      "outputPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj": {}
+    "E:\\Code\\LeaningProject-master\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj": {}
   },
   "projects": {
-    "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj": {
+    "E:\\Code\\LeaningProject-master\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj",
+        "projectUniqueName": "E:\\Code\\LeaningProject-master\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj",
         "projectName": "Expertsystem.Adapter.Information",
-        "projectPath": "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj",
+        "projectPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj",
         "packagesPath": "C:\\Users\\liuyuc\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\obj\\",
+        "outputPath": "E:\\Code\\LeaningProject-master\\Expertsystem.Adapter.Information\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
