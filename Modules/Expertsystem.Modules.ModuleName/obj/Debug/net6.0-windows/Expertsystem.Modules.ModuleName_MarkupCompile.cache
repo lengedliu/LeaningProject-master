@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\Code\Expertsystem\Modules\Expertsystem.Modules.ModuleName\obj\Debug\net6.0-windows\
+E:\Code\LeaningProject-master\Modules\Expertsystem.Modules.ModuleName\obj\Debug\net6.0-windows\
 Expertsystem.Modules.ModuleName
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 5-1565716415
 
 161058473584
-2501975972556
+249-699899131
 Views\SignInControl.xaml;Views\SignUpControl.xaml;Views\SignUpSuccessControl.xaml;Views\UserVerificationControl.xaml;Views\ViewA.xaml;
 
 False
