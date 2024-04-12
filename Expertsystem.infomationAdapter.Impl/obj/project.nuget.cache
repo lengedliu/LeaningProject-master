@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "D+gd2hXLrGny6qiQTjHKPVkqh9ZOSTJ74+w7m4kjb7/JmyjA9ZpvQq2/dcj2Nn3hYmdLz62XTIr0GbR7Ae/2HQ==",
+  "success": true,
+  "projectFilePath": "E:\\Code\\Expertsystem\\Expertsystem.infomationAdapter.Impl\\Expertsystem.infomationAdapter.Impl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\liuyuc\\.nuget\\packages\\awssdk.cognitoidentityprovider\\3.7.302.9\\awssdk.cognitoidentityprovider.3.7.302.9.nupkg.sha512",
+    "C:\\Users\\liuyuc\\.nuget\\packages\\awssdk.core\\3.7.302.15\\awssdk.core.3.7.302.15.nupkg.sha512"
+  ],
+  "logs": []
+}

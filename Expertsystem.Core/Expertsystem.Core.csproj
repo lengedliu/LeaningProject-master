@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Expertsystem.Adapter.Information\Expertsystem.Adapter.Information.csproj" />
+    <ProjectReference Include="..\Expertsystem.infomationAdapter.Impl\Expertsystem.infomationAdapter.Impl.csproj" />
+    <ProjectReference Include="..\Services\Expertsystem.Services\Expertsystem.Services.csproj" />
+  </ItemGroup>
+</Project>

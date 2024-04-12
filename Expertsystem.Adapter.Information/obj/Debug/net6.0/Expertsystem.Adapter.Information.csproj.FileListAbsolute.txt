@@ -1,0 +1,11 @@
+E:\Code\Expertsystem\Expertsystem.Adapter.Information\bin\Debug\net6.0\Expertsystem.Adapter.Information.deps.json
+E:\Code\Expertsystem\Expertsystem.Adapter.Information\bin\Debug\net6.0\Expertsystem.Adapter.Information.dll
+E:\Code\Expertsystem\Expertsystem.Adapter.Information\bin\Debug\net6.0\Expertsystem.Adapter.Information.pdb
+E:\Code\Expertsystem\Expertsystem.Adapter.Information\obj\Debug\net6.0\Expertsystem.Adapter.Information.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Expertsystem\Expertsystem.Adapter.Information\obj\Debug\net6.0\Expertsystem.Adapter.Information.AssemblyInfoInputs.cache
+E:\Code\Expertsystem\Expertsystem.Adapter.Information\obj\Debug\net6.0\Expertsystem.Adapter.Information.AssemblyInfo.cs
+E:\Code\Expertsystem\Expertsystem.Adapter.Information\obj\Debug\net6.0\Expertsystem.Adapter.Information.csproj.CoreCompileInputs.cache
+E:\Code\Expertsystem\Expertsystem.Adapter.Information\obj\Debug\net6.0\Expertsystem.Adapter.Information.dll
+E:\Code\Expertsystem\Expertsystem.Adapter.Information\obj\Debug\net6.0\refint\Expertsystem.Adapter.Information.dll
+E:\Code\Expertsystem\Expertsystem.Adapter.Information\obj\Debug\net6.0\Expertsystem.Adapter.Information.pdb
+E:\Code\Expertsystem\Expertsystem.Adapter.Information\obj\Debug\net6.0\ref\Expertsystem.Adapter.Information.dll

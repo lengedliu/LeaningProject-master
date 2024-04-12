@@ -1,0 +1,255 @@
+﻿<UserControl
+    x:Class="Expertsystem.Modules.ModuleName.Views.SignInControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Expertsystem.Modules.ModuleName.Views"
+    xmlns:pwdHelper="clr-namespace:Expertsystem.Component;assembly=Expertsystem.Component"
+    xmlns:prism="http://prismlibrary.com/"
+    prism:ViewModelLocator.AutoWireViewModel="True" 
+    Width="391"
+    Height="680"
+    d:Background="white"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Expertsystem.Common;component/Themes/LoginViewStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <!--<StackPanel
+        x:Name="LoginTextBoxContainer"
+        Grid.Row="5"
+        Grid.Column="3"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Stretch">-->
+
+    <Grid x:Name="LoginTextBoxContainer">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="331" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="31" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="63" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="63" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="51" />
+            <RowDefinition Height="60" />
+            <!--<RowDefinition Height="78" />-->
+            <RowDefinition Height="110" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="15" />
+        </Grid.RowDefinitions>
+
+        <Label
+            Grid.Row="1"
+            Grid.Column="1"
+            Content="Log In" Style="{StaticResource MainHeading}"
+             />
+        <!--  enter email  -->
+        <StackPanel Grid.Row="3" Grid.Column="1">
+            <Label
+                Margin="0"
+                Padding="0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="Enter Email"
+                FontSize="14"
+                FontWeight="Light"
+                Foreground="#808080" />
+            <TextBox
+                x:Name="LoginPageEmailBox"
+                Width="330"
+                Height="40"
+                Margin="0,3,0,0"
+                Padding="10,0,0,0"
+                VerticalContentAlignment="Center"
+                Background="#E9E9E9"
+                BorderBrush="#ACACAC"
+                BorderThickness="1"
+                FontFamily="Montserrat"
+                FontSize="17"
+                FontWeight="Medium"
+                Foreground="#252525" 
+                Text="{Binding LoginModel.Email, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}">
+            </TextBox>
+            <!--<TextBox
+                
+                Margin="10,0,0,0"
+                Padding="0"
+                FontSize="16"
+                Height="16"
+                FontWeight="Medium"
+                Text="{Binding Path=(Validation.Errors)[0].ErrorContent,ElementName=LoginPageEmailBox}"
+                >
+            </TextBox>-->
+        </StackPanel>
+
+        <!--  enter password  -->
+        <StackPanel Grid.Row="5" Grid.Column="1">
+            <Label
+                Margin="0"
+                Padding="0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="Enter Password"
+                FontSize="14"
+                FontWeight="Light"
+                Foreground="#808080" />
+            <PasswordBox
+                x:Name="LoginPagePasswordBox"
+                Width="330"
+                Height="40"
+                Margin="0,3,0,0"
+                Padding="10,0,0,0"
+                VerticalContentAlignment="Center"
+                Background="#E9E9E9"
+                BorderBrush="#ACACAC"
+                BorderThickness="1"
+                FontFamily="Montserrat"
+                FontSize="17"
+                FontWeight="Medium"
+                Foreground="#252525" 
+                pwdHelper:PasswordBoxHelper.Password="{Binding LoginModel.Password,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"
+                pwdHelper:PasswordBoxHelper.Attach="True"/>
+            <TextBlock
+                Margin="10,0,0,0"
+                Padding="0"
+                FontSize="16"
+                FontWeight="Medium"
+                />
+        </StackPanel>
+
+        <!--  submit button  -->
+        <Button
+            Grid.Row="7"
+            Grid.Column="1"
+            Width="330"
+            Height="50"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Background="#252525"
+            Command="{Binding SignInCommand}"
+            Content="SUBMIT"
+            FontSize="22"
+            FontWeight="SemiBold"
+            Foreground="#ffffff">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border
+                        Padding="7"
+                        Background="#252525"
+                        CornerRadius="1">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <TextBlock
+            Grid.Row="8"
+            Grid.Column="1"
+            x:Name="LoginSubmitResult"
+            Margin="10,10,0,0"
+            Padding="0"
+            FontSize="16"
+            FontWeight="Medium"
+            Width="330" 
+            Text="{Binding LoginModel.LoginSubmitResult}"
+            Foreground="Red" />
+
+        <!--  bottom text  -->
+        <StackPanel
+            Grid.Row="9"
+            Grid.Column="1"
+            Margin="0">
+            <!--  forget password  -->
+            <!--<Button
+                Margin="0"
+                HorizontalAlignment="Left"
+                Background="Transparent"
+                Command="{Binding ShowResetPasswordCommand}"
+                FontSize="13"
+                FontWeight="Medium"
+                Foreground="#0085FF">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border
+                            Padding="0"
+                            Background="Transparent"
+                            CornerRadius="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+                <Button.Content>
+                    <TextBlock>
+                        <Underline>
+                            <Run Text="Reset password" />
+                        </Underline>
+                    </TextBlock>
+                </Button.Content>
+            </Button>-->
+
+            <!--  sign up  -->
+            <Button
+                Margin="0,5,0,0"
+                HorizontalAlignment="Left"
+                Background="Transparent"
+                Command="{Binding ShowSignUpCommand}"
+                FontSize="13"
+                FontWeight="Medium"
+                Foreground="#0085FF">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border
+                            Padding="0"
+                            Background="Transparent"
+                            CornerRadius="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+                <Button.Content>
+                    <TextBlock>
+                        <Underline>
+                            <Run Text="Sign Up" />
+                        </Underline>
+                    </TextBlock>
+                </Button.Content>
+            </Button>
+
+            <TextBlock
+                Margin="0,5,0,0"
+                FontSize="13"
+                Foreground="#808080"
+                TextWrapping="Wrap">
+                <Run Text="By using this application, you agree to our " />
+                <Underline>
+                    <Run Text="Terms of Use" />
+                </Underline>
+                <Run Text="and" />
+                <Underline>
+                    <Run Text="Privacy Policy" />
+                </Underline>
+                <Run Text="." />
+            </TextBlock>
+
+            <TextBlock
+                Grid.Row="7"
+                Grid.Column="1"
+                  Style="{StaticResource CopyRightStyle}"/>
+
+        </StackPanel>
+    </Grid>
+
+    <!--<StackPanel/>-->
+
+</UserControl>

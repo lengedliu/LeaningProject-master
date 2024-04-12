@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\back_icon-1_darkgray.png" />
+    <None Remove="Assets\splash-page-image_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Unity" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Expertsystem.Adapter.Information\Expertsystem.Adapter.Information.csproj" />
+    <ProjectReference Include="..\Expertsystem.Common\Expertsystem.Common.csproj" />
+    <ProjectReference Include="..\Expertsystem.Core\Expertsystem.Core.csproj" />
+    <ProjectReference Include="..\Modules\Expertsystem.Modules.ModuleName\Expertsystem.Modules.ModuleName.csproj" />
+    <ProjectReference Include="..\Services\Expertsystem.Services.Interfaces\Expertsystem.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Services\Expertsystem.Services\Expertsystem.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\back_icon-1_darkgray.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\splash-page-image_1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Assets\close_icon-1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\ColorLogoNoBg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\exclamation_mark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Config\InformationConfig.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

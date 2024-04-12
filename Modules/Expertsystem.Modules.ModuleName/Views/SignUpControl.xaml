@@ -1,0 +1,314 @@
+﻿<UserControl
+    x:Class="Expertsystem.Modules.ModuleName.Views.SignUpControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Expertsystem.Modules.ModuleName.Views"
+    xmlns:pwdHelper="clr-namespace:Expertsystem.Component;assembly=Expertsystem.Component"
+    xmlns:prism="http://prismlibrary.com/"
+    prism:ViewModelLocator.AutoWireViewModel="True" 
+    Width="391"
+    Height="680"
+    d:Background="white"
+    mc:Ignorable="d">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Expertsystem.Common;component/Themes/LoginViewStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid>
+        <!--  row  -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <!--  column  -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="60" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="50" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="130" />
+        </Grid.ColumnDefinitions>
+
+        <!--  company name StackPanel  -->
+        <StackPanel
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="7">
+            <Label Content="Company Name" Style="{StaticResource TextboxTitleStyle}" />
+            <TextBox
+                x:Name="textBoxCompanyName"
+                Width="389"
+                Style="{StaticResource VaildationTextBoxStyle}"
+                Text="{Binding SignUpModel.CompanyName, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+        <!--  password  -->
+        <StackPanel
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            Margin="0,2,0,0">
+            <Label Content="Create Password" Style="{StaticResource TextboxTitleStyle}" />
+            <PasswordBox
+                x:Name="CreatePasswordBox"
+                Width="190"
+                Style="{StaticResource VaildationPasswordBoxStyle}"
+                Tag="{Binding SignUpModel.CreatePassword, ValidatesOnDataErrors=True, NotifyOnValidationError=True}"
+                pwdHelper:PasswordBoxHelper.Password="{Binding SignUpModel.CreatePassword,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"
+                pwdHelper:PasswordBoxHelper.Attach="True"/>
+        </StackPanel>
+
+        <!--  confirm password  -->
+        <StackPanel
+            Grid.Row="1"
+            Grid.Column="4"
+            Grid.ColumnSpan="3"
+            Margin="0,2,0,0">
+            <Label Content="Confirm Password" Style="{StaticResource TextboxTitleStyle}" />
+            <PasswordBox
+                x:Name="ConfirmPasswordBox"
+                Width="189"
+                Style="{StaticResource VaildationPasswordBoxStyle}"
+                Tag="{Binding SignUpModel.ConfirmPassword, ValidatesOnDataErrors=True, NotifyOnValidationError=True,UpdateSourceTrigger=PropertyChanged}" 
+                pwdHelper:PasswordBoxHelper.Password="{Binding SignUpModel.ConfirmPassword,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"
+                pwdHelper:PasswordBoxHelper.Attach="True"/>
+        </StackPanel>
+
+        <!--  address StackPanel  -->
+        <StackPanel
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="5"
+            Margin="0,2,5,0">
+            <Label Content="Company Address" Style="{StaticResource TextboxTitleStyle}" />
+            <TextBox
+                x:Name="textBoxCompanyAddress"
+                Width="245"
+                Style="{StaticResource VaildationTextBoxStyle}"
+                Text="{Binding SignUpModel.CompanyAddress, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+
+
+        <!--  postal code  -->
+        <StackPanel
+            Grid.Row="2"
+            Grid.Column="5"
+            Grid.ColumnSpan="3"
+            Margin="10,2,0,0">
+            <Label Content="Postal Code" Style="{StaticResource TextboxTitleStyle}" />
+            <TextBox
+                x:Name="textBoxPostalCode"
+                Width="129"
+                Style="{StaticResource VaildationTextBoxStyle}"
+                Text="{Binding SignUpModel.PostalCode, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+        <!--  country  -->
+        <StackPanel
+            Grid.Row="3"
+            Grid.Column="0"
+            Margin="0,2,0,0">
+            <Label Content="Country" Style="{StaticResource TextboxTitleStyle}" />
+            <ComboBox
+                x:Name="comboBoxCountry"
+                Width="115"
+                DisplayMemberPath="Name"
+                ItemsSource="{Binding SignUpModel.Countries}"
+                SelectedItem="{Binding SignUpModel.SelectedCountry}"
+                SelectedValuePath="Code"
+                Style="{StaticResource ComboboxStyle}" 
+                />
+        </StackPanel>
+
+        <!--  province  -->
+        <StackPanel
+            Grid.Row="3"
+            Grid.Column="2"
+            Grid.ColumnSpan="3"
+            Margin="0,2,0,0">
+            <Label Content="Province/State" Style="{StaticResource TextboxTitleStyle}" />
+            <ComboBox
+                x:Name="comboBoxState"
+                Width="115"
+                ItemsSource="{Binding SignUpModel.StatesList}"
+                SelectedItem="{Binding SignUpModel.State}"
+                Style="{StaticResource ComboboxStyle}" />
+        </StackPanel>
+
+        <!--  City  -->
+        <StackPanel
+            Grid.Row="3"
+            Grid.Column="6"
+            Grid.ColumnSpan="3"
+            Margin="0,2,0,0">
+            <Label Content="City" Style="{StaticResource TextboxTitleStyle}" />
+            <TextBox
+                x:Name="textBoxCity"
+                Width="129"
+                Style="{StaticResource VaildationTextBoxStyle}"
+                Text="{Binding SignUpModel.City, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+        <!--  company email  -->
+        <StackPanel
+            Grid.Row="4"
+            Grid.Column="0"
+            Grid.ColumnSpan="5"
+            Margin="0,2,5,0">
+            <Label Content="Company Email" Style="{StaticResource TextboxTitleStyle}" />
+            <TextBox
+                x:Name="textBoxCompanyEmail"
+                Width="245"
+                Style="{StaticResource VaildationTextBoxStyle}"
+                Text="{Binding SignUpModel.CompanyEmail, ValidatesOnDataErrors=True,NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+        <!--  company phone  -->
+        <StackPanel
+            Grid.Row="4"
+            Grid.Column="6"
+            Grid.ColumnSpan="3"
+            Margin="0,2,0,0">
+            <Label Content="Company Phone" Style="{StaticResource TextboxTitleStyle}" />
+            <TextBox
+                x:Name="textBoxCompanyPhoneNumber"
+                Width="129"
+                MaxLength="12"
+                Style="{StaticResource VaildationTextBoxStyle}"
+                Text="{Binding SignUpModel.CompanyPhoneNumber, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+        <!--  reason for contact  -->
+        <StackPanel
+            Grid.Row="5"
+            Grid.Column="0"
+            Grid.ColumnSpan="7"
+            Margin="0,2,0,0">
+            <Label Content="Reason For Contact" Style="{StaticResource TextboxTitleStyle}" />
+            <ComboBox
+                x:Name="comboBoxReasonForContact"
+                Width="390"
+                ItemsSource="{Binding SignUpModel.ReasonForContactList}"
+                SelectedItem="{Binding SignUpModel.ReasonForContact, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"
+                Style="{StaticResource ComboboxStyle}" />
+        </StackPanel>
+
+        <!--  contact person  -->
+        <StackPanel
+            Grid.Row="6"
+            Grid.Column="0"
+            Grid.ColumnSpan="5"
+            Margin="0,2,2,0">
+            <Label Content="Contact Person" Style="{StaticResource TextboxTitleStyle}" />
+            <TextBox
+                x:Name="textBoxContactPerson"
+                Width="245"
+                Style="{StaticResource VaildationTextBoxStyle}"
+                Text="{Binding SignUpModel.ContactPerson, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+        <!--  Contact Phone  -->
+        <StackPanel
+            Grid.Row="6"
+            Grid.Column="6"
+            Grid.ColumnSpan="3"
+            Margin="0,2,0,0">
+            <Label Content="Contact Phone" Style="{StaticResource TextboxTitleStyle}" />
+            <TextBox
+                x:Name="textBoxContactPersonPhoneNumber"
+                Width="129"
+                MaxLength="12"
+                Style="{StaticResource VaildationTextBoxStyle}"
+                Text="{Binding SignUpModel.ContactPersonPhoneNumber, ValidatesOnDataErrors=True, NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+        <StackPanel
+            Grid.Row="7"
+            Grid.RowSpan="3"
+            Grid.Column="0"
+            Grid.ColumnSpan="8"
+            Margin="0,10,0,10"
+            Orientation="Vertical">
+            <Button
+                Width="Auto"
+                Height="50"
+                Margin="0,20,0,0"
+                Background="#004225"
+                Command="{Binding SignUpCommand}"
+                Content="SUBMIT"
+                FontSize="22"
+                FontWeight="SemiBold"
+                Foreground="#CBB26B">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border
+                            Padding="7"
+                            Background="#004225"
+                            CornerRadius="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <TextBlock
+                x:Name="SignUpResultMessage"
+                Foreground="Red"
+                Style="{StaticResource SignupResultMessageStyle}"
+                Text="{Binding SignUpModel.ErrorMsg,Mode=OneWay}"
+                TextAlignment="Center" />
+        </StackPanel>
+
+        <StackPanel
+            Grid.Row="10"
+            Grid.Column="0"
+            Grid.ColumnSpan="8"
+            Margin="0"
+            VerticalAlignment="Top">
+            <!--<TextBlock Style="{StaticResource ForgetPassLinkStyle}" Text="I already have an account." />-->
+            <Button
+                Width="Auto"
+                Height="Auto"
+                Margin="0"
+                HorizontalAlignment="Left"
+                Background="White"
+                Command="{Binding ShowSignInCommand}"
+                Content="Already have an account"
+                FontSize="14"
+                FontWeight="Regular"
+                Foreground="#0085FF">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border
+                            Padding="0"
+                            Background="Transparent"
+                            CornerRadius="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <TextBlock
+                Margin="0,3,0,0"
+                Style="{StaticResource TermPolicyStyle}"
+                Text="By using this application, you agree to our Terms of Use and Privacy Policy." />
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,15 @@
+E:\Code\Expertsystem\Expertsystem.Common\bin\Debug\net6.0-windows\Expertsystem.Common.deps.json
+E:\Code\Expertsystem\Expertsystem.Common\bin\Debug\net6.0-windows\Expertsystem.Common.dll
+E:\Code\Expertsystem\Expertsystem.Common\bin\Debug\net6.0-windows\Expertsystem.Common.pdb
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\Expertsystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\Expertsystem.Common.AssemblyInfoInputs.cache
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\Expertsystem.Common.AssemblyInfo.cs
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\Expertsystem.Common.csproj.CoreCompileInputs.cache
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\Expertsystem.Common.dll
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\refint\Expertsystem.Common.dll
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\Expertsystem.Common.pdb
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\ref\Expertsystem.Common.dll
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\Expertsystem.Common_MarkupCompile.cache
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\Expertsystem.Common.g.resources
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\Themes\LoginViewStyle.baml
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\net6.0-windows\Themes\VaildationTextBoxStyle.baml

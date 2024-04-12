@@ -1,0 +1,243 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--  parent styles  -->
+    <FontFamily x:Key="MainInputFont">
+        Montserrat
+    </FontFamily>
+
+    <!--  heading  -->
+    <Style x:Key="MainHeading" TargetType="Label">
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="#252525" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+    </Style>
+
+    <!--  text block style  -->
+    <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="#808080" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="FontWeight" Value="Regular" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+    </Style>
+
+    <!--  main button style  -->
+    <Style x:Key="MainButtonStyle" TargetType="Button">
+        <Setter Property="Background" Value="#252525" />
+        <Setter Property="Foreground" Value="#fff" />
+        <Setter Property="Width" Value="390" />
+        <Setter Property="Height" Value="50" />
+        <Setter Property="Margin" Value="0,0,0,0" />
+        <Setter Property="FontSize" Value="22" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+    </Style>
+
+    <!--  secondary button style  -->
+    <Style x:Key="SecondaryButtonStyle" TargetType="Button">
+        <Setter Property="Background" Value="#252525" />
+        <Setter Property="Foreground" Value="#fff" />
+        <Setter Property="Width" Value="330" />
+        <Setter Property="Height" Value="50" />
+        <Setter Property="Margin" Value="0,0,0,0" />
+        <Setter Property="FontSize" Value="22" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+    </Style>
+
+    <!--  Textbox title  -->
+    <Style x:Key="TextboxTitleStyle" TargetType="Label">
+        <Setter Property="Foreground" Value="#808080" />
+        <Setter Property="FontWeight" Value="Light" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Margin" Value="0" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+    </Style>
+
+    <!--  Textbox style  -->
+    <Style x:Key="TextboxStyle" TargetType="TextBox">
+        <Setter Property="Background" Value="#E9E9E9" />
+        <Setter Property="Foreground" Value="#252525" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="Margin" Value="0,3,0,0" />
+        <Setter Property="Padding" Value="10,0,0,0" />
+        <Setter Property="BorderBrush" Value="#ACACAC" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Height" Value="40" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+    </Style>
+
+    <!--  Textbox with validation style  -->
+    <Style x:Key="TextboxValidationStyle" TargetType="TextBox">
+        <Setter Property="Background" Value="#E9E9E9" />
+        <Setter Property="Foreground" Value="#252525" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="Margin" Value="0,3,0,0" />
+        <Setter Property="Padding" Value="10,0,0,0" />
+        <Setter Property="BorderBrush" Value="#ACACAC" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Height" Value="40" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Border
+                        Grid.Row="0"
+                        BorderBrush="Red"
+                        BorderThickness="1">
+                            <Grid>
+                                <AdornedElementPlaceholder />
+                            </Grid>
+                        </Border>
+                        <Border Grid.Row="1" Background="Red" IsHitTestVisible="False">
+                            <TextBlock
+                            Margin="4"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="12"
+                            Foreground="White"
+                            Text="{Binding [0].ErrorContent}" />
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--  Combobox style  -->
+    <Style x:Key="ComboboxStyle" TargetType="ComboBox">
+        <Setter Property="Background" Value="#E9E9E9" />
+        <Setter Property="Foreground" Value="#252525" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="Margin" Value="0,3,0,0" />
+        <Setter Property="Padding" Value="10,0,0,0" />
+        <Setter Property="BorderBrush" Value="#ACACAC" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Height" Value="40" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+    </Style>
+
+    <!--  error message style  -->
+    <Style x:Key="ErrorMessageStyle" TargetType="TextBlock">
+        <Setter Property="Margin" Value="0" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="Foreground" Value="Red" />
+    </Style>
+
+    <!--  sign-up result message style  -->
+    <Style x:Key="SignupResultMessageStyle" TargetType="TextBlock">
+        <Setter Property="Margin" Value="0,2,0,0" />
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="FontWeight" Value="Medium" />
+    </Style>
+
+    <!--  passwordbox style  -->
+    <Style x:Key="PasswordBoxStyle" TargetType="PasswordBox">
+        <Setter Property="Background" Value="#EBEBEB" />
+        <Setter Property="Foreground" Value="#252525" />
+        <Setter Property="FontSize" Value="17" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="Margin" Value="0,3,0,0" />
+        <Setter Property="Padding" Value="10,0,0,0" />
+        <Setter Property="BorderBrush" Value="#ACACAC" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="Width" Value="390" />
+        <Setter Property="Height" Value="40" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+        
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <!--  TextBox and Image size  -->
+                            <RowDefinition Height="Auto" />
+                            <!--  Error message size  -->
+                        </Grid.RowDefinitions>
+                        <Border
+                        Grid.Row="0"
+                        BorderBrush="Red"
+                        BorderThickness="1">
+                            <Grid>
+                                <AdornedElementPlaceholder />
+                            </Grid>
+                        </Border>
+                        <Border
+                        Grid.Row="1"
+                        Padding="4"
+                        Background="Red">
+                            <TextBlock
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="12"
+                            Foreground="White"
+                            Text="{Binding [0].ErrorContent}"
+                            TextWrapping="Wrap" />
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--  blue link style  -->
+    <Style x:Key="ForgetPassLinkStyle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="#0085FF" />
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="FontWeight" Value="Regular" />
+        <Setter Property="Margin" Value="0" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+    </Style>
+
+    <!--  terms and policy style  -->
+    <Style x:Key="TermPolicyStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="13" />
+        <Setter Property="Foreground" Value="#808080" />
+        <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="Margin" Value="0,6,0,0" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+    </Style>
+
+    <!--  copyright style  -->
+    <Style x:Key="CopyRightStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="Foreground" Value="#808080" />
+        <Setter Property="FontWeight" Value="Light" />
+        <Setter Property="Margin" Value="0,10,0,0" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Text" Value="Tekena ©" />
+        <Setter Property="FontFamily" Value="{StaticResource MainInputFont}" />
+    </Style>
+
+</ResourceDictionary>

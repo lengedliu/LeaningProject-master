@@ -1,0 +1,10 @@
+E:\Code\Expertsystem\Services\Expertsystem.Services.Interfaces\bin\Debug\netstandard2.1\Expertsystem.Services.Interfaces.deps.json
+E:\Code\Expertsystem\Services\Expertsystem.Services.Interfaces\bin\Debug\netstandard2.1\Expertsystem.Services.Interfaces.dll
+E:\Code\Expertsystem\Services\Expertsystem.Services.Interfaces\bin\Debug\netstandard2.1\Expertsystem.Services.Interfaces.pdb
+E:\Code\Expertsystem\Services\Expertsystem.Services.Interfaces\obj\Debug\netstandard2.1\Expertsystem.Services.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Expertsystem\Services\Expertsystem.Services.Interfaces\obj\Debug\netstandard2.1\Expertsystem.Services.Interfaces.AssemblyInfoInputs.cache
+E:\Code\Expertsystem\Services\Expertsystem.Services.Interfaces\obj\Debug\netstandard2.1\Expertsystem.Services.Interfaces.AssemblyInfo.cs
+E:\Code\Expertsystem\Services\Expertsystem.Services.Interfaces\obj\Debug\netstandard2.1\Expertsystem.Services.Interfaces.csproj.CoreCompileInputs.cache
+E:\Code\Expertsystem\Services\Expertsystem.Services.Interfaces\obj\Debug\netstandard2.1\Expertsystem.Services.Interfaces.dll
+E:\Code\Expertsystem\Services\Expertsystem.Services.Interfaces\obj\Debug\netstandard2.1\Expertsystem.Services.Interfaces.pdb
+E:\Code\Expertsystem\Services\Expertsystem.Services.Interfaces\obj\Debug\netstandard2.1\Expertsystem.Services.Interfaces.csproj.AssemblyReference.cache

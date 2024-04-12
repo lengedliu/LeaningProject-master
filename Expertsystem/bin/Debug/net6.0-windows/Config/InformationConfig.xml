@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"  ?>
+<AdapterConfigs >
+	<!--适配层配置-->
+	<Adapter name="资源"  assembly="Expertsystem.Adapter.Information" className="Expertsystem.Adapter.Information.AdapterInfo">
+		<AdapterConfig >
+			<Config key="serveraddr" value="https://www."/>
+			<Config key="tokenaddr" value="https://www." />
+			<Config key="appkey" value=""/>
+			<Config key="appsecret" value=""/>
+			<Config key="userPoolId" value=""/>
+			<Config key="appClientId" value=""/>
+		</AdapterConfig>
+	</Adapter>
+</AdapterConfigs>

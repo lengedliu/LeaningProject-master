@@ -1,0 +1,4 @@
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\netstandard2.1\Expertsystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\netstandard2.1\Expertsystem.Common.AssemblyInfoInputs.cache
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\netstandard2.1\Expertsystem.Common.AssemblyInfo.cs
+E:\Code\Expertsystem\Expertsystem.Common\obj\Debug\netstandard2.1\Expertsystem.Common.csproj.CoreCompileInputs.cache

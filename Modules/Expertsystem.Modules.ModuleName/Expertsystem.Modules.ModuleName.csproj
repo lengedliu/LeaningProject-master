@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Expertsystem.Common\Expertsystem.Common.csproj" />
+    <ProjectReference Include="..\..\Expertsystem.Component\Expertsystem.Component.csproj" />
+    <ProjectReference Include="..\..\Expertsystem.Core\Expertsystem.Core.csproj" />
+    <ProjectReference Include="..\..\Services\Expertsystem.Services.Interfaces\Expertsystem.Services.Interfaces.csproj" />
+  </ItemGroup>
+</Project>

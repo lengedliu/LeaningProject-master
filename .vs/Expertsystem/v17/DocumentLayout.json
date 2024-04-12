@@ -1,0 +1,834 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Code\\Expertsystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|e:\\code\\expertsystem\\expertsystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|solutionrelative:expertsystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\expertsystem.modules.modulename.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\expertsystem.modules.modulename.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\viewmodels\\signincontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\viewmodels\\signincontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\modulenamemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\modulenamemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB449C2-D790-4FEF-8E98-7381A2B26901}|Services\\Expertsystem.Services\\Expertsystem.Services.csproj|e:\\code\\expertsystem\\services\\expertsystem.services\\authentication\\cognitoclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB449C2-D790-4FEF-8E98-7381A2B26901}|Services\\Expertsystem.Services\\Expertsystem.Services.csproj|solutionrelative:services\\expertsystem.services\\authentication\\cognitoclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB449C2-D790-4FEF-8E98-7381A2B26901}|Services\\Expertsystem.Services\\Expertsystem.Services.csproj|e:\\code\\expertsystem\\services\\expertsystem.services\\httprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FB449C2-D790-4FEF-8E98-7381A2B26901}|Services\\Expertsystem.Services\\Expertsystem.Services.csproj|solutionrelative:services\\expertsystem.services\\httprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F3F737-8FC4-42E6-96E5-AA2D3A15781A}|Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj|e:\\code\\expertsystem\\services\\expertsystem.services.interfaces\\ihttprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F3F737-8FC4-42E6-96E5-AA2D3A15781A}|Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj|solutionrelative:services\\expertsystem.services.interfaces\\ihttprequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F3F737-8FC4-42E6-96E5-AA2D3A15781A}|Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj|e:\\code\\expertsystem\\services\\expertsystem.services.interfaces\\icognitoclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F3F737-8FC4-42E6-96E5-AA2D3A15781A}|Services\\Expertsystem.Services.Interfaces\\Expertsystem.Services.Interfaces.csproj|solutionrelative:services\\expertsystem.services.interfaces\\icognitoclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|e:\\code\\expertsystem\\expertsystem\\views\\loginsignupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|solutionrelative:expertsystem\\views\\loginsignupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D09ABC4-1CD6-4234-891B-033C248C7333}|Expertsystem.Core\\Expertsystem.Core.csproj|e:\\code\\expertsystem\\expertsystem.core\\mvvm\\validatemodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D09ABC4-1CD6-4234-891B-033C248C7333}|Expertsystem.Core\\Expertsystem.Core.csproj|solutionrelative:expertsystem.core\\mvvm\\validatemodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D09ABC4-1CD6-4234-891B-033C248C7333}|Expertsystem.Core\\Expertsystem.Core.csproj|e:\\code\\expertsystem\\expertsystem.core\\mvvm\\regionviewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D09ABC4-1CD6-4234-891B-033C248C7333}|Expertsystem.Core\\Expertsystem.Core.csproj|solutionrelative:expertsystem.core\\mvvm\\regionviewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D09ABC4-1CD6-4234-891B-033C248C7333}|Expertsystem.Core\\Expertsystem.Core.csproj|e:\\code\\expertsystem\\expertsystem.core\\mvvm\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D09ABC4-1CD6-4234-891B-033C248C7333}|Expertsystem.Core\\Expertsystem.Core.csproj|solutionrelative:expertsystem.core\\mvvm\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B094B-0797-4B12-8775-3439C2D8E7F4}|Expertsystem.Component\\Expertsystem.Component.csproj|e:\\code\\expertsystem\\expertsystem.component\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B094B-0797-4B12-8775-3439C2D8E7F4}|Expertsystem.Component\\Expertsystem.Component.csproj|solutionrelative:expertsystem.component\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B094B-0797-4B12-8775-3439C2D8E7F4}|Expertsystem.Component\\Expertsystem.Component.csproj|e:\\code\\expertsystem\\expertsystem.component\\expertsystem.component.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{657B094B-0797-4B12-8775-3439C2D8E7F4}|Expertsystem.Component\\Expertsystem.Component.csproj|solutionrelative:expertsystem.component\\expertsystem.component.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|e:\\code\\expertsystem\\expertsystem\\expertsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|solutionrelative:expertsystem\\expertsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\viewmodels\\signupsuccesscontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\viewmodels\\signupsuccesscontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\viewmodels\\userverificationcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\viewmodels\\userverificationcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\viewmodels\\viewaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\viewmodels\\viewaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\viewmodels\\signinupcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\viewmodels\\signinupcontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A876DE5-C4C9-453B-9497-E81C97B4AA0D}|Expertsystem.Common\\Expertsystem.Common.csproj|e:\\code\\expertsystem\\expertsystem.common\\themes\\vaildationtextboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A876DE5-C4C9-453B-9497-E81C97B4AA0D}|Expertsystem.Common\\Expertsystem.Common.csproj|solutionrelative:expertsystem.common\\themes\\vaildationtextboxstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\views\\signupcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\views\\signupcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E370DC51-0BAA-4313-A1E7-F0B5FA55C1D9}|Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj|e:\\code\\expertsystem\\expertsystem.adapter.information\\information\\adapterinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E370DC51-0BAA-4313-A1E7-F0B5FA55C1D9}|Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj|solutionrelative:expertsystem.adapter.information\\information\\adapterinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D09ABC4-1CD6-4234-891B-033C248C7333}|Expertsystem.Core\\Expertsystem.Core.csproj|e:\\code\\expertsystem\\expertsystem.core\\expertsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D09ABC4-1CD6-4234-891B-033C248C7333}|Expertsystem.Core\\Expertsystem.Core.csproj|solutionrelative:expertsystem.core\\expertsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|e:\\code\\expertsystem\\expertsystem\\views\\loginsignupview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|solutionrelative:expertsystem\\views\\loginsignupview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FB449C2-D790-4FEF-8E98-7381A2B26901}|Services\\Expertsystem.Services\\Expertsystem.Services.csproj|e:\\code\\expertsystem\\services\\expertsystem.services\\expertsystem.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3FB449C2-D790-4FEF-8E98-7381A2B26901}|Services\\Expertsystem.Services\\Expertsystem.Services.csproj|solutionrelative:services\\expertsystem.services\\expertsystem.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E370DC51-0BAA-4313-A1E7-F0B5FA55C1D9}|Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj|e:\\code\\expertsystem\\expertsystem.adapter.information\\configmanager\\informationadapterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E370DC51-0BAA-4313-A1E7-F0B5FA55C1D9}|Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj|solutionrelative:expertsystem.adapter.information\\configmanager\\informationadapterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A876DE5-C4C9-453B-9497-E81C97B4AA0D}|Expertsystem.Common\\Expertsystem.Common.csproj|e:\\code\\expertsystem\\expertsystem.common\\themes\\loginviewstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A876DE5-C4C9-453B-9497-E81C97B4AA0D}|Expertsystem.Common\\Expertsystem.Common.csproj|solutionrelative:expertsystem.common\\themes\\loginviewstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A876DE5-C4C9-453B-9497-E81C97B4AA0D}|Expertsystem.Common\\Expertsystem.Common.csproj|e:\\code\\expertsystem\\expertsystem.common\\information\\adaptermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A876DE5-C4C9-453B-9497-E81C97B4AA0D}|Expertsystem.Common\\Expertsystem.Common.csproj|solutionrelative:expertsystem.common\\information\\adaptermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|e:\\code\\expertsystem\\expertsystem\\viewmodels\\loginsignupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|solutionrelative:expertsystem\\viewmodels\\loginsignupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\views\\signincontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\views\\signincontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|e:\\code\\expertsystem\\expertsystem\\viewmodels\\loginsignupviewmodel.commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|solutionrelative:expertsystem\\viewmodels\\loginsignupviewmodel.commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|e:\\code\\expertsystem\\expertsystem\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|solutionrelative:expertsystem\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\views\\userverificationcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\views\\userverificationcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\views\\userverificationcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\views\\userverificationcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\views\\signupsuccesscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\views\\signupsuccesscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\views\\signupcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\views\\signupcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\views\\signincontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\views\\signincontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|e:\\code\\expertsystem\\expertsystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|solutionrelative:expertsystem\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657B094B-0797-4B12-8775-3439C2D8E7F4}|Expertsystem.Component\\Expertsystem.Component.csproj|e:\\code\\expertsystem\\expertsystem.component\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{657B094B-0797-4B12-8775-3439C2D8E7F4}|Expertsystem.Component\\Expertsystem.Component.csproj|solutionrelative:expertsystem.component\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC5BD3AF-5C50-43D2-9B83-3AC1B5E7CEA4}|Tests\\Expertsystem.Modules.ModuleName.Tests\\Expertsystem.Modules.ModuleName.Tests.csproj|e:\\code\\expertsystem\\tests\\expertsystem.modules.modulename.tests\\expertsystem.modules.modulename.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CC5BD3AF-5C50-43D2-9B83-3AC1B5E7CEA4}|Tests\\Expertsystem.Modules.ModuleName.Tests\\Expertsystem.Modules.ModuleName.Tests.csproj|solutionrelative:tests\\expertsystem.modules.modulename.tests\\expertsystem.modules.modulename.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|e:\\code\\expertsystem\\expertsystem\\expertsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|solutionrelative:expertsystem\\expertsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\liuyuc\\.nuget\\packages\\prism.wpf\\8.1.97\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Code\\Expertsystem\\Expertsystem\\obj\\Debug\\net6.0-windows\\Views\\LoginSignUpView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Expertsystem\\obj\\Debug\\net6.0-windows\\Views\\LoginSignUpView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|e:\\code\\expertsystem\\modules\\expertsystem.modules.modulename\\views\\viewa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3BDAD6E-2B64-43F8-B415-CA9B86550E53}|Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj|solutionrelative:modules\\expertsystem.modules.modulename\\views\\viewa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|e:\\code\\expertsystem\\expertsystem\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{25FF6E02-DEAC-43A3-9452-FC4CB6E90925}|Expertsystem\\Expertsystem.csproj|solutionrelative:expertsystem\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginSignUpViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem\\ViewModels\\LoginSignUpViewModel.cs",
+              "RelativeDocumentMoniker": "Expertsystem\\ViewModels\\LoginSignUpViewModel.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem\\ViewModels\\LoginSignUpViewModel.cs",
+              "RelativeToolTip": "Expertsystem\\ViewModels\\LoginSignUpViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:23:18.849Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SignUpControl.xaml",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpControl.xaml",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpControl.xaml",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpControl.xaml",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-10T04:19:36.487Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SignInUpControlViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignInUpControlViewModel.cs",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignInUpControlViewModel.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignInUpControlViewModel.cs",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignInUpControlViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:43:52.775Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ValidateModelBase.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Core\\Mvvm\\ValidateModelBase.cs",
+              "RelativeDocumentMoniker": "Expertsystem.Core\\Mvvm\\ValidateModelBase.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Core\\Mvvm\\ValidateModelBase.cs",
+              "RelativeToolTip": "Expertsystem.Core\\Mvvm\\ValidateModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T07:48:39.087Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem\\App.xaml",
+              "RelativeDocumentMoniker": "Expertsystem\\App.xaml",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem\\App.xaml",
+              "RelativeToolTip": "Expertsystem\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-10T07:43:48.738Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Models\\SignUp.cs",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\Models\\SignUp.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Models\\SignUp.cs",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\Models\\SignUp.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAnwBgAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:47:17.474Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SignInControl.xaml",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\SignInControl.xaml",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\Views\\SignInControl.xaml",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\SignInControl.xaml",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\Views\\SignInControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-10T05:16:30.956Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignInControlViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignInControlViewModel.cs",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignInControlViewModel.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignInControlViewModel.cs",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignInControlViewModel.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAD4v1QAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T02:58:53.185Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\Models\\LoginModel.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:16:16.21Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginViewStyle.xaml",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Common\\Themes\\LoginViewStyle.xaml",
+              "RelativeDocumentMoniker": "Expertsystem.Common\\Themes\\LoginViewStyle.xaml",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Common\\Themes\\LoginViewStyle.xaml",
+              "RelativeToolTip": "Expertsystem.Common\\Themes\\LoginViewStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-10T10:01:08.399Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserVerificationControl.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\UserVerificationControl.xaml.cs",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\Views\\UserVerificationControl.xaml.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\UserVerificationControl.xaml.cs",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\Views\\UserVerificationControl.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T03:35:53.703Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdapterInfo.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\Information\\AdapterInfo.cs",
+              "RelativeDocumentMoniker": "Expertsystem.Adapter.Information\\Information\\AdapterInfo.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\Information\\AdapterInfo.cs",
+              "RelativeToolTip": "Expertsystem.Adapter.Information\\Information\\AdapterInfo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:20:02.639Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ExpertsystemContext.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Core\\ExpertsystemContext.cs",
+              "RelativeDocumentMoniker": "Expertsystem.Core\\ExpertsystemContext.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Core\\ExpertsystemContext.cs",
+              "RelativeToolTip": "Expertsystem.Core\\ExpertsystemContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvxoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T14:01:16.958Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Expertsystem\\App.xaml.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem\\App.xaml.cs",
+              "RelativeToolTip": "Expertsystem\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:10:31.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegionViewModelBase.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Core\\Mvvm\\RegionViewModelBase.cs",
+              "RelativeDocumentMoniker": "Expertsystem.Core\\Mvvm\\RegionViewModelBase.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Core\\Mvvm\\RegionViewModelBase.cs",
+              "RelativeToolTip": "Expertsystem.Core\\Mvvm\\RegionViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T14:48:15.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModuleNameModule.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ModuleNameModule.cs",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\ModuleNameModule.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ModuleNameModule.cs",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\ModuleNameModule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:11:53.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignUpSuccessControlViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignUpSuccessControlViewModel.cs",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignUpSuccessControlViewModel.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignUpSuccessControlViewModel.cs",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\SignUpSuccessControlViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T09:07:43.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Expertsystem",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem\\Expertsystem.csproj",
+              "RelativeDocumentMoniker": "Expertsystem\\Expertsystem.csproj",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem\\Expertsystem.csproj",
+              "RelativeToolTip": "Expertsystem\\Expertsystem.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-10T07:17:11.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Expertsystem.Component",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Component\\Expertsystem.Component.csproj",
+              "RelativeDocumentMoniker": "Expertsystem.Component\\Expertsystem.Component.csproj",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Component\\Expertsystem.Component.csproj",
+              "RelativeToolTip": "Expertsystem.Component\\Expertsystem.Component.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-10T13:54:30.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IHttpRequestService.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\IHttpRequestService.cs",
+              "RelativeDocumentMoniker": "Services\\Expertsystem.Services.Interfaces\\IHttpRequestService.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\IHttpRequestService.cs",
+              "RelativeToolTip": "Services\\Expertsystem.Services.Interfaces\\IHttpRequestService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:18:43.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CognitoClients.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\Authentication\\CognitoClients.cs",
+              "RelativeDocumentMoniker": "Services\\Expertsystem.Services\\Authentication\\CognitoClients.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\Authentication\\CognitoClients.cs",
+              "RelativeToolTip": "Services\\Expertsystem.Services\\Authentication\\CognitoClients.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAewHcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:14:16.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HttpRequestService.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\HttpRequestService.cs",
+              "RelativeDocumentMoniker": "Services\\Expertsystem.Services\\HttpRequestService.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\HttpRequestService.cs",
+              "RelativeToolTip": "Services\\Expertsystem.Services\\HttpRequestService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:15:37.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Expertsystem.Modules.ModuleName",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\Expertsystem.Modules.ModuleName.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-10T07:35:47.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Core\\Mvvm\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "Expertsystem.Core\\Mvvm\\ViewModelBase.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Core\\Mvvm\\ViewModelBase.cs",
+              "RelativeToolTip": "Expertsystem.Core\\Mvvm\\ViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T01:57:20.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginSignUpView.xaml",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem\\Views\\LoginSignUpView.xaml",
+              "RelativeDocumentMoniker": "Expertsystem\\Views\\LoginSignUpView.xaml",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem\\Views\\LoginSignUpView.xaml",
+              "RelativeToolTip": "Expertsystem\\Views\\LoginSignUpView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-12T01:58:31.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICognitoClients.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\ICognitoClients.cs",
+              "RelativeDocumentMoniker": "Services\\Expertsystem.Services.Interfaces\\ICognitoClients.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services.Interfaces\\ICognitoClients.cs",
+              "RelativeToolTip": "Services\\Expertsystem.Services.Interfaces\\ICognitoClients.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T02:00:05.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserVerificationControlViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\UserVerificationControlViewModel.cs",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\UserVerificationControlViewModel.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\UserVerificationControlViewModel.cs",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\UserVerificationControlViewModel.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAMwFUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T03:42:08.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ViewAViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\ViewAViewModel.cs",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\ViewAViewModel.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\ViewAViewModel.cs",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\ViewModels\\ViewAViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T03:45:30.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VaildationTextBoxStyle.xaml",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Common\\Themes\\VaildationTextBoxStyle.xaml",
+              "RelativeDocumentMoniker": "Expertsystem.Common\\Themes\\VaildationTextBoxStyle.xaml",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Common\\Themes\\VaildationTextBoxStyle.xaml",
+              "RelativeToolTip": "Expertsystem.Common\\Themes\\VaildationTextBoxStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T15:08:55.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Component\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Expertsystem.Component\\PasswordHelper.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Component\\PasswordHelper.cs",
+              "RelativeToolTip": "Expertsystem.Component\\PasswordHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:22:21.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InformationAdapterConfig.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\ConfigManager\\InformationAdapterConfig.cs",
+              "RelativeDocumentMoniker": "Expertsystem.Adapter.Information\\ConfigManager\\InformationAdapterConfig.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\ConfigManager\\InformationAdapterConfig.cs",
+              "RelativeToolTip": "Expertsystem.Adapter.Information\\ConfigManager\\InformationAdapterConfig.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAArwEIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T14:30:08.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdapterModel.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Common\\Information\\AdapterModel.cs",
+              "RelativeDocumentMoniker": "Expertsystem.Common\\Information\\AdapterModel.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Common\\Information\\AdapterModel.cs",
+              "RelativeToolTip": "Expertsystem.Common\\Information\\AdapterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T14:46:13.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginSignUpView.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem\\Views\\LoginSignUpView.xaml.cs",
+              "RelativeDocumentMoniker": "Expertsystem\\Views\\LoginSignUpView.xaml.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem\\Views\\LoginSignUpView.xaml.cs",
+              "RelativeToolTip": "Expertsystem\\Views\\LoginSignUpView.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwCMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T02:51:14.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Expertsystem.Services",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Expertsystem.Services\\Expertsystem.Services.csproj",
+              "ToolTip": "E:\\Code\\Expertsystem\\Services\\Expertsystem.Services\\Expertsystem.Services.csproj",
+              "RelativeToolTip": "Services\\Expertsystem.Services\\Expertsystem.Services.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-11T15:09:05.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginSignUpViewModel.Commands.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem\\ViewModels\\LoginSignUpViewModel.Commands.cs",
+              "RelativeDocumentMoniker": "Expertsystem\\ViewModels\\LoginSignUpViewModel.Commands.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem\\ViewModels\\LoginSignUpViewModel.Commands.cs",
+              "RelativeToolTip": "Expertsystem\\ViewModels\\LoginSignUpViewModel.Commands.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T12:41:19.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Expertsystem\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "Expertsystem\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T01:39:32.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SignUpSuccessControl.xaml",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpSuccessControl.xaml",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpSuccessControl.xaml",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpSuccessControl.xaml",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpSuccessControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T09:06:41.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SignUpControl.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpControl.xaml.cs",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpControl.xaml.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpControl.xaml.cs",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\Views\\SignUpControl.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T04:02:58.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SignInControl.xaml.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\SignInControl.xaml.cs",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\Views\\SignInControl.xaml.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\SignInControl.xaml.cs",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\Views\\SignInControl.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T04:02:55.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserVerificationControl.xaml",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\UserVerificationControl.xaml",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\Views\\UserVerificationControl.xaml",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\UserVerificationControl.xaml",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\Views\\UserVerificationControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T03:34:52.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem.Component\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Expertsystem.Component\\AssemblyInfo.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem.Component\\AssemblyInfo.cs",
+              "RelativeToolTip": "Expertsystem.Component\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T13:19:03.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Expertsystem.Modules.ModuleName.Tests",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Tests\\Expertsystem.Modules.ModuleName.Tests\\Expertsystem.Modules.ModuleName.Tests.csproj",
+              "RelativeDocumentMoniker": "Tests\\Expertsystem.Modules.ModuleName.Tests\\Expertsystem.Modules.ModuleName.Tests.csproj",
+              "ToolTip": "E:\\Code\\Expertsystem\\Tests\\Expertsystem.Modules.ModuleName.Tests\\Expertsystem.Modules.ModuleName.Tests.csproj",
+              "RelativeToolTip": "Tests\\Expertsystem.Modules.ModuleName.Tests\\Expertsystem.Modules.ModuleName.Tests.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-10T10:36:11.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Expertsystem",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem\\Expertsystem.csproj",
+              "RelativeDocumentMoniker": "Expertsystem\\Expertsystem.csproj",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem\\Expertsystem.csproj",
+              "RelativeToolTip": "Expertsystem\\Expertsystem.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-10T07:29:03.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\liuyuc\\.nuget\\packages\\prism.wpf\\8.1.97\\readme.txt",
+              "ToolTip": "C:\\Users\\liuyuc\\.nuget\\packages\\prism.wpf\\8.1.97\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-10T07:22:59.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginSignUpView.g.cs",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem\\obj\\Debug\\net6.0-windows\\Views\\LoginSignUpView.g.cs",
+              "RelativeDocumentMoniker": "Expertsystem\\obj\\Debug\\net6.0-windows\\Views\\LoginSignUpView.g.cs",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem\\obj\\Debug\\net6.0-windows\\Views\\LoginSignUpView.g.cs",
+              "RelativeToolTip": "Expertsystem\\obj\\Debug\\net6.0-windows\\Views\\LoginSignUpView.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T04:47:46.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ViewA.xaml",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\ViewA.xaml",
+              "RelativeDocumentMoniker": "Modules\\Expertsystem.Modules.ModuleName\\Views\\ViewA.xaml",
+              "ToolTip": "E:\\Code\\Expertsystem\\Modules\\Expertsystem.Modules.ModuleName\\Views\\ViewA.xaml",
+              "RelativeToolTip": "Modules\\Expertsystem.Modules.ModuleName\\Views\\ViewA.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-10T02:34:18.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Code\\Expertsystem\\Expertsystem\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Expertsystem\\Views\\MainWindow.xaml",
+              "ToolTip": "E:\\Code\\Expertsystem\\Expertsystem\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Expertsystem\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-10T01:42:20.871Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

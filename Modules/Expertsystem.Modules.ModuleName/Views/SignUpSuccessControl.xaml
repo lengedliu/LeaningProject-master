@@ -1,0 +1,82 @@
+﻿<UserControl
+    x:Class="Expertsystem.Modules.ModuleName.Views.SignUpSuccessControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Expertsystem.Modules.ModuleName.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Width="391"
+    Height="680"
+    d:Background="white"
+    mc:Ignorable="d">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10" />
+            <RowDefinition Height="0.5*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="10" />
+        </Grid.ColumnDefinitions>
+        <StackPanel
+            Grid.Row="1"
+            Grid.Column="1"
+            Grid.ColumnSpan="3"
+            VerticalAlignment="Center"
+            Orientation="Vertical">
+            <Label
+                HorizontalAlignment="Center"
+                Content="Sign Up Success"
+                FontFamily="Montserrat"
+                FontSize="30"
+                FontWeight="Black"
+                Foreground="#252525" />
+        </StackPanel>
+
+        <StackPanel
+            Grid.Row="2"
+            Grid.Column="1"
+            Margin="0,50,0,0"
+            VerticalAlignment="Top"
+            Orientation="Vertical">
+            <TextBlock
+                FontSize="21"
+                FontWeight="Regular"
+                Foreground="#808080"
+                TextAlignment="Left"
+                TextWrapping="Wrap">
+                <Run Text="Our dedicated support will contact you with the login information." /></TextBlock>
+        </StackPanel>
+
+        <StackPanel
+            Grid.Row="3"
+            Grid.Column="1"
+            Orientation="Vertical">
+            <Button
+                Width="500"
+                Height="50"
+                Margin="0,10,0,0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+                Command="{Binding BackToSignInClearHistoryCommand}"
+                Content="Back To Sign In"
+                FontSize="22"
+                FontWeight="SemiBold"
+                Foreground="#ffffff">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border
+                            Padding="7"
+                            Background="#252525"
+                            CornerRadius="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "PU3IRR5dA13e9gkCFAKtR5bLPi7FTwz9epi9UdNaWQPXfrRba3xh6MwRGXDjYdE9EgoFmYuWkFGzoA20lHzApA==",
+  "success": true,
+  "projectFilePath": "E:\\Code\\Expertsystem\\Expertsystem.Adapter.Information\\Expertsystem.Adapter.Information.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\liuyuc\\.nuget\\packages\\awssdk.cognitoidentityprovider\\3.7.302.9\\awssdk.cognitoidentityprovider.3.7.302.9.nupkg.sha512",
+    "C:\\Users\\liuyuc\\.nuget\\packages\\awssdk.core\\3.7.302.15\\awssdk.core.3.7.302.15.nupkg.sha512",
+    "C:\\Users\\liuyuc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "C:\\Users\\liuyuc\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\liuyuc\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
